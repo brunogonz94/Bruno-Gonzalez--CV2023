@@ -1,0 +1,139 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: auto;
+}
+
+.inicio{
+    background-image: linear-gradient(rgba(16, 16, 116, 0.295), rgba(63, 63, 42, 0.5)),
+    url("139-1393655_computadoras-para-fondo-de-pantalla.jpg"); 
+    height: 100%; 
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    opacity: 0.8;
+   
+}
+.inicio .contenido{
+    max-width: 100%;
+    max-height: 100% ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.inicio .contenido header nav{
+    position: fixed;
+    margin-left: 50px;
+    padding:10px ;
+    background-color: rgb(219, 164, 10);
+    border-radius: 15px;
+    text-align: left;
+    z-index: 80;
+    display: none;
+}
+.inicio .contenido header nav a{
+    display: block;
+    color: rgb(10, 57, 160);
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+   
+}
+.inicio .contenido header .nav-bar{
+position:fixed ;
+background-color: rgb(219, 164, 10);
+font-size: 20px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+line-height: 50px;
+cursor: pointer;
+transition: .3s;
+}
+.inicio .contenido header .nav-bar:hover{
+    box-shadow: 0 0 35px white;
+}
+
+ h1{
+font-size: 50px;
+    font-family: 'Lobster', cursive;;
+    color: #4800bb ;
+    padding: 20px;
+    margin-top: -10px;
+
+
+}
+.inicio .contenido .foto{
+    position: relative;
+    cursor: pointer;
+}
+
+.inicio .contenido .foto img{
+    max-width: 250px;
+    border-radius: 50%;
+    border:5px solid #62e7a5;
+    left: 50%;
+    
+}
+.inicio .contenido .informacion-personal{
+font-size: 20px;
+color: white;
+padding: 10px;
+margin-top: 15px;
+margin-bottom: 35px;
+border: 11px inset #118151;
+font-weight: bold;
+}
+
+.inicio .contenido .sobre-mi{
+    font-size: 22px;
+    color: white;
+    columns: 3;
+    display: list-item;
+    font-weight: bold;
+
+}
+h2{
+    text-decoration: underline;
+    color: white;
+    padding: 15px;
+    margin: -4px;
+}
+.inicio .contenido .redes{
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin: 20px 0;
+    height: 50%;
+}
+.inicio .contenido .redes a:hovr{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    line-height: 40px;
+    margin: 0;
+
+    }
+.inicio .contenido .redes a:hover{
+    color: white;
+    background-color: palevioletred;
+    box-shadow: 0 0 20px white;
+}
+ li {
+   position: relative;
+    margin: 10px;
+    padding: 10px;
+ }
+
